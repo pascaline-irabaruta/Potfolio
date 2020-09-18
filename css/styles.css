@@ -7,3 +7,7 @@
   float:left;
   text-align: center;
 }
+.nav ul li a{
+  text-decoration: none;
+	color:gray;
+}
