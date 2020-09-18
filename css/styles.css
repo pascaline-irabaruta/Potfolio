@@ -4,4 +4,6 @@
 .nav ul li{
   width:120px;
 	margin: 10px auto;
+  float:left;
+  text-align: center;
 }
