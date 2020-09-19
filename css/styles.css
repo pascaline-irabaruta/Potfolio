@@ -43,6 +43,12 @@ body {
   .column.middle{
 	  width: 34%;
   }
+  h1 {
+    padding-top: 100px;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: white;
+  }
   @media screen and (max-width: 768px) {
 	.column.side, .column.middle {
 	  width: 100%;
