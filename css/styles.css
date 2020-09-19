@@ -1,4 +1,9 @@
+body {
+  background-image: url("https://lh3.googleusercontent.com/proxy/XMIrftNofu0NjuGiX0YvpYYXf-4urqfRGFfBGxaEK0poMAVmzY2W1arNJAbNEmSxUHDNV0l6DnKs4Y0J7Dl4htHqX9aoK61y3Hhtxg9ZwisgNwq2WkWoxpOPFmK6Fpn3gcWhetQ");
+  background-size: cover;
+}
 .nav{
+	border:1px solid none;
   float:right;
 }
 .nav ul li{
