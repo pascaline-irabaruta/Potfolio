@@ -4,6 +4,7 @@ body {
   font-family: fantasy;
 }
 .nav{
+  margin-top: 10px;
 	border:1px solid none;
   float:right;
 }
@@ -23,6 +24,7 @@ body {
   color:black;
 }
 #me {
+  opacity: 0.5;
   padding-top: 90px;
   padding-bottom:90px;
   margin:90px;
