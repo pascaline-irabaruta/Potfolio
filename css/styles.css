@@ -4,9 +4,12 @@ body {
   font-family: fantasy;
 }
 .nav{
-  margin-top: 10px;
+  overflow: hidden;
 	border:1px solid none;
   float:right;
+}
+nav ul{
+  display: inline-block;
 }
 .nav ul li{
   width:120px;
@@ -24,12 +27,26 @@ body {
   color:black;
 }
 #me {
-  opacity: 0.5;
-  padding-top: 90px;
-  padding-bottom:90px;
-  margin:90px;
+  opacity: 0.7;
+  /* padding-top: 90px;
+  padding-bottom:90px; */
+  /* margin:90px; */
+  padding: 50 px 0;
   text-align:center;
-  width:290px;
+  max-width: 100%;
   height:auto;
   background-color: pink;
 }
+#me h1{
+  line-height: 50px;
+  margin:25px 0;
+}
+.column {
+	float: left;
+  }
+  .column.side{
+	  width: 33%;
+  }
+  .column.middle{
+	  width: 34%;
+  }
