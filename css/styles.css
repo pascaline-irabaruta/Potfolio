@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://i.imgur.com/lDDB0R0.png");
+  background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
   background-size: cover;
   font-family: fantasy;
 }
@@ -39,15 +39,32 @@ body {
   }
   .column.side{
 	  width: 33%;
+
   }
   .column.middle{
 	  width: 34%;
   }
+  .row a {
+    color: pink;
+  }
   h1 {
-    padding-top: 100px;
-    text-decoration: underline;
+    padding-top: 120px;
+    text-align: center;
     font-weight: bolder;
     color: white;
+  }
+  h2{
+    color: black;
+  }
+  p{
+    color: black;
+  }
+  #abt {
+    padding-top: 90px;
+  }
+  #abt h2,p{
+    color: white;
+    font-family: sans-serif;
   }
   @media screen and (max-width: 768px) {
 	.column.side, .column.middle {
