@@ -5,11 +5,9 @@ body {
 }
 .nav{
   overflow: hidden;
+  margin-top: 10px;
 	border:1px solid none;
   float:right;
-}
-nav ul{
-  display: inline-block;
 }
 .nav ul li{
   width:120px;
@@ -28,18 +26,13 @@ nav ul{
 }
 #me {
   opacity: 0.7;
-  /* padding-top: 90px;
-  padding-bottom:90px; */
-  /* margin:90px; */
-  padding: 50 px 0;
+  padding-top: 90px;
+  padding-bottom:90px;
+  margin:90px;
   text-align:center;
-  max-width: 100%;
+  width:290px;
   height:auto;
   background-color: pink;
-}
-#me h1{
-  line-height: 50px;
-  margin:25px 0;
 }
 .column {
 	float: left;
@@ -49,4 +42,9 @@ nav ul{
   }
   .column.middle{
 	  width: 34%;
+  }
+  @media screen and (max-width: 768px) {
+	.column.side, .column.middle {
+	  width: 100%;
+	}
   }
