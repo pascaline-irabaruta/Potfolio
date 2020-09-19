@@ -23,7 +23,9 @@ body {
   color:black;
 }
 #me {
-  margin-right: 0 auto;
+  padding-top: 90px;
+  padding-bottom:90px;
+  margin:90px;
   text-align:center;
   width:290px;
   height:auto;
