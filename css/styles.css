@@ -15,10 +15,17 @@ body {
 }
 .nav ul li a{
   text-decoration: none;
-	color:black;
+	color:White;
 }
 .nav ul li:hover{
   padding: 6px;
-  background-color: pink;
+  background-color:pink;
   color:black;
+}
+#me {
+  margin-right: 0 auto;
+  text-align:center;
+  width:290px;
+  height:auto;
+  background-color: pink;
 }
