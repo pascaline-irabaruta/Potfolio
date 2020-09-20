@@ -1,14 +1,10 @@
-*{
-  box-sizing: border-box;
-}
 body {
-  background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
+  background-image: url("https://i.imgur.com/lDDB0R0.png");
   background-size: cover;
-  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+  font-family: fantasy;
 }
 .nav{
-  overflow: hidden;
-  margin-top: 10px;
 	border:1px solid none;
   float:right;
 }
@@ -28,50 +24,9 @@ body {
   color:black;
 }
 #me {
-  opacity: 0.7;
-  padding-top: 90px;
-  padding-bottom:90px;
-  margin:90px;
+  margin-right: auto;
   text-align:center;
   width:290px;
   height:auto;
   background-color: pink;
 }
-.column {
-	float: left;
-  }
-  .column.side{
-	  width: 33%;
-
-  }
-  .column.middle{
-	  width: 34%;
-  }
-  .row a {
-    color: pink;
-  }
-  h1 {
-    padding-top: 120px;
-    text-align: center;
-    font-weight: bolder;
-    color: white;
-  }
-  h2{
-    color: black;
-  }
-  p{
-    color: black;
-  }
-  #abt {
-    position: fixed;top: 50%;left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: pink;
-    opacity: 0.7;
-    padding: 15px;
-    width:600px;
-  }
-  @media screen and (max-width: 768px) {
-	.column.side, .column.middle {
-	  width: 100%;
-	}
-  }
