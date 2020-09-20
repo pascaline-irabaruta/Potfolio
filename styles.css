@@ -1,8 +1,13 @@
+*{
+  box-sizing: border-box;
+}
 body {
-  background-image: url("https://wallpapercave.com/wp/wp1828925.png");
+  background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
+  background-image: url("https://i.imgur.com/lDDB0R0.png");
   background-size: cover;
-  background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+  font-family: fantasy;
 }
 .nav{
   overflow: hidden;
@@ -10,19 +15,7 @@ body {
 	border:1px solid none;
   float:right;
 }
-.nav ul li{
-  width:120px;
-	margin: 10px auto;
-  float:left;
-  text-align: center;
-}
-.nav ul li a{
-  text-decoration: none;
-	color:White;
-}
-.nav ul li:hover{
-  padding: 6px;
-  background-color:pink;
+@@ -28,50 +24,9 @@ body {
   color:black;
 }
 #me {
@@ -74,9 +67,3 @@ body {
 	  width: 100%;
 	}
   }
-
-@@media screen and (min-width:480px){
-  body {
-    background-image: image("me.jpeg");
-  }
-}
