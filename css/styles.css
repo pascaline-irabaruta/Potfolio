@@ -58,4 +58,8 @@ h2{
 p{
   color: black;
 }
-
+  @media screen and (max-width: 768px) {
+	.column.side, .column.middle {
+	  width: 100%;
+	}
+  }
