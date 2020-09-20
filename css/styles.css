@@ -71,4 +71,8 @@ p{
   padding: 15px;
   width:600px;
 }
-
+@media screen and (min-width:480px){
+  body {
+    background-image: image("me.jpeg");
+  }
+}
