@@ -46,3 +46,16 @@ body {
 .row a {
   color: pink;
 }
+h1 {
+  padding-top: 120px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+h2{
+  color: black;
+  }
+p{
+  color: black;
+}
+
