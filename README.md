@@ -25,4 +25,6 @@ This document will get you a copy of the project up and running on your local ma
 https://pascaline-irabaruta.github.io/Potfolio/
 
 ### License
-This project is licensed under the MIT License 
+This project is licensed under the MIT License.
+
+### Copyright(c) pascy Irabaruta pascyirabaruta456@gmail.com
